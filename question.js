@@ -1,5 +1,3 @@
-
-// code by webdevtrick (https://webdevtrick.com)
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
@@ -79,11 +77,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("Austin's favorite color?", ["blue", "orange","green", "yellow"], "blue"),
+    new Question("Aimee's favorite color?", ["blue", "orange","green", "pink"], "pink"),
+    new Question("Noah's favorite color?", ["blue", "orange","green", "yellow"], "blue"),
+    new Question("Irina's favorite color?", ["blue", "orange","green", "mustard yellow"], "mustard yellow"),
+    new Question("The Priest's favorite color?", ["black", "orange","green", "yellow"], "black")
 ];
  
 // create quiz
